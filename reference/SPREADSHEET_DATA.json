@@ -1,0 +1,3375 @@
+{
+  "metadata": {
+    "source": "FIFA26_Dallas_Games_Predictor_v10or.xlsx",
+    "description": "Complete data extract from Onkar's FIFA 2026 Dallas Games Predictor spreadsheet",
+    "third_place_factor": 0.67,
+    "third_place_explanation": "8 of 12 third-place teams qualify in 48-team format"
+  },
+  "odds": {
+    "group_winner": [
+      {
+        "group": "D",
+        "team": "United States",
+        "yes_price": 47,
+        "win_pct": 43.51851851851852
+      },
+      {
+        "group": "D",
+        "team": "Paraguay",
+        "yes_price": 23,
+        "win_pct": 21.296296296296298
+      },
+      {
+        "group": "D",
+        "team": "Australia",
+        "yes_price": 15,
+        "win_pct": 13.88888888888889
+      },
+      {
+        "group": "D",
+        "team": "TBD_C",
+        "yes_price": 23,
+        "win_pct": 21.296296296296298
+      },
+      {
+        "group": "E",
+        "team": "Germany",
+        "yes_price": 66,
+        "win_pct": 69.47368421052632
+      },
+      {
+        "group": "E",
+        "team": "Ecuador",
+        "yes_price": 18,
+        "win_pct": 18.947368421052634
+      },
+      {
+        "group": "E",
+        "team": "Ivory Coast",
+        "yes_price": 10,
+        "win_pct": 10.526315789473683
+      },
+      {
+        "group": "E",
+        "team": "Curacao",
+        "yes_price": 1,
+        "win_pct": 1.0526315789473684
+      },
+      {
+        "group": "G",
+        "team": "Belgium",
+        "yes_price": 68,
+        "win_pct": 68.68686868686868
+      },
+      {
+        "group": "G",
+        "team": "Egypt",
+        "yes_price": 18,
+        "win_pct": 18.181818181818183
+      },
+      {
+        "group": "G",
+        "team": "Iran",
+        "yes_price": 8,
+        "win_pct": 8.080808080808081
+      },
+      {
+        "group": "G",
+        "team": "New Zealand",
+        "yes_price": 5,
+        "win_pct": 5.05050505050505
+      },
+      {
+        "group": "H",
+        "team": "Spain",
+        "yes_price": 79,
+        "win_pct": 77.45098039215686
+      },
+      {
+        "group": "H",
+        "team": "Uruguay",
+        "yes_price": 15,
+        "win_pct": 14.705882352941178
+      },
+      {
+        "group": "H",
+        "team": "Saudi Arabia",
+        "yes_price": 4,
+        "win_pct": 3.9215686274509802
+      },
+      {
+        "group": "H",
+        "team": "Cape Verde",
+        "yes_price": 4,
+        "win_pct": 3.9215686274509802
+      },
+      {
+        "group": "I",
+        "team": "France",
+        "yes_price": 69,
+        "win_pct": 68.31683168316832
+      },
+      {
+        "group": "I",
+        "team": "Senegal",
+        "yes_price": 9,
+        "win_pct": 8.91089108910891
+      },
+      {
+        "group": "I",
+        "team": "Norway",
+        "yes_price": 22,
+        "win_pct": 21.782178217821784
+      },
+      {
+        "group": "I",
+        "team": "TBD_I4",
+        "yes_price": 1,
+        "win_pct": 0.9900990099009901
+      },
+      {
+        "group": "J",
+        "team": "Argentina",
+        "yes_price": 75,
+        "win_pct": 68.80733944954129
+      },
+      {
+        "group": "J",
+        "team": "Austria",
+        "yes_price": 18,
+        "win_pct": 16.51376146788991
+      },
+      {
+        "group": "J",
+        "team": "Jordan",
+        "yes_price": 5,
+        "win_pct": 4.587155963302752
+      },
+      {
+        "group": "J",
+        "team": "Algeria",
+        "yes_price": 11,
+        "win_pct": 10.091743119266056
+      },
+      {
+        "group": "K",
+        "team": "Portugal",
+        "yes_price": 69,
+        "win_pct": 66.99029126213593
+      },
+      {
+        "group": "K",
+        "team": "Colombia",
+        "yes_price": 31,
+        "win_pct": 30.097087378640776
+      },
+      {
+        "group": "K",
+        "team": "Uzbekistan",
+        "yes_price": 2,
+        "win_pct": 1.9417475728155338
+      },
+      {
+        "group": "K",
+        "team": "TBD_K4",
+        "yes_price": 1,
+        "win_pct": 0.9708737864077669
+      },
+      {
+        "group": "L",
+        "team": "England",
+        "yes_price": 69,
+        "win_pct": 67.64705882352942
+      },
+      {
+        "group": "L",
+        "team": "Croatia",
+        "yes_price": 22,
+        "win_pct": 21.568627450980394
+      },
+      {
+        "group": "L",
+        "team": "Ghana",
+        "yes_price": 10,
+        "win_pct": 9.803921568627452
+      },
+      {
+        "group": "L",
+        "team": "Panama",
+        "yes_price": 1,
+        "win_pct": 0.9803921568627451
+      }
+    ],
+    "qualifier": [
+      {
+        "group": "D",
+        "team": "United States",
+        "qualify_pct": 82
+      },
+      {
+        "group": "D",
+        "team": "Paraguay",
+        "qualify_pct": 62
+      },
+      {
+        "group": "D",
+        "team": "Australia",
+        "qualify_pct": 48
+      },
+      {
+        "group": "D",
+        "team": "TBD_C",
+        "qualify_pct": 49
+      },
+      {
+        "group": "E",
+        "team": "Germany",
+        "qualify_pct": 97
+      },
+      {
+        "group": "E",
+        "team": "Ecuador",
+        "qualify_pct": 88
+      },
+      {
+        "group": "E",
+        "team": "Ivory Coast",
+        "qualify_pct": 73
+      },
+      {
+        "group": "E",
+        "team": "Curacao",
+        "qualify_pct": 13
+      },
+      {
+        "group": "G",
+        "team": "Belgium",
+        "qualify_pct": 95
+      },
+      {
+        "group": "G",
+        "team": "Egypt",
+        "qualify_pct": 58
+      },
+      {
+        "group": "G",
+        "team": "Iran",
+        "qualify_pct": 35
+      },
+      {
+        "group": "G",
+        "team": "New Zealand",
+        "qualify_pct": 12
+      },
+      {
+        "group": "H",
+        "team": "Spain",
+        "qualify_pct": 98
+      },
+      {
+        "group": "H",
+        "team": "Uruguay",
+        "qualify_pct": 72
+      },
+      {
+        "group": "H",
+        "team": "Saudi Arabia",
+        "qualify_pct": 22
+      },
+      {
+        "group": "H",
+        "team": "Cape Verde",
+        "qualify_pct": 8
+      },
+      {
+        "group": "I",
+        "team": "France",
+        "qualify_pct": 94
+      },
+      {
+        "group": "I",
+        "team": "Senegal",
+        "qualify_pct": 64
+      },
+      {
+        "group": "I",
+        "team": "Norway",
+        "qualify_pct": 78
+      },
+      {
+        "group": "I",
+        "team": "TBD_I4",
+        "qualify_pct": 10
+      },
+      {
+        "group": "J",
+        "team": "Argentina",
+        "qualify_pct": 97
+      },
+      {
+        "group": "J",
+        "team": "Austria",
+        "qualify_pct": 74
+      },
+      {
+        "group": "J",
+        "team": "Jordan",
+        "qualify_pct": 32
+      },
+      {
+        "group": "J",
+        "team": "Algeria",
+        "qualify_pct": 64
+      },
+      {
+        "group": "K",
+        "team": "Portugal",
+        "qualify_pct": 92
+      },
+      {
+        "group": "K",
+        "team": "Colombia",
+        "qualify_pct": 85
+      },
+      {
+        "group": "K",
+        "team": "Uzbekistan",
+        "qualify_pct": 29
+      },
+      {
+        "group": "K",
+        "team": "TBD_K4",
+        "qualify_pct": 10
+      },
+      {
+        "group": "L",
+        "team": "England",
+        "qualify_pct": 94
+      },
+      {
+        "group": "L",
+        "team": "Croatia",
+        "qualify_pct": 68
+      },
+      {
+        "group": "L",
+        "team": "Ghana",
+        "qualify_pct": 28
+      },
+      {
+        "group": "L",
+        "team": "Panama",
+        "qualify_pct": 10
+      }
+    ],
+    "knockout": [
+      {
+        "match": "M83",
+        "side1": "2K side",
+        "side1_win_pct": 55,
+        "side2": "2L side",
+        "side2_win_pct": 45
+      },
+      {
+        "match": "M84",
+        "side1": "1H side",
+        "side1_win_pct": 45,
+        "side2": "2J side",
+        "side2_win_pct": 55
+      }
+    ],
+    "final_qualifier": [
+      {
+        "team": "Argentina",
+        "p_final_pct": 10.4
+      },
+      {
+        "team": "Spain",
+        "p_final_pct": 15.9
+      },
+      {
+        "team": "England",
+        "p_final_pct": 13
+      },
+      {
+        "team": "Portugal",
+        "p_final_pct": 7.3
+      },
+      {
+        "team": "Colombia",
+        "p_final_pct": 1.7
+      },
+      {
+        "team": "Croatia",
+        "p_final_pct": 1.2
+      },
+      {
+        "team": "Uruguay",
+        "p_final_pct": 1.2
+      },
+      {
+        "team": "Austria",
+        "p_final_pct": 0.5
+      },
+      {
+        "team": "France",
+        "p_final_pct": 12.3
+      },
+      {
+        "team": "Brazil",
+        "p_final_pct": 8.6
+      },
+      {
+        "team": "Germany",
+        "p_final_pct": 5.8
+      },
+      {
+        "team": "Netherlands",
+        "p_final_pct": 3.3
+      },
+      {
+        "team": "Norway",
+        "p_final_pct": 3.1
+      },
+      {
+        "team": "Morocco",
+        "p_final_pct": 1.9
+      },
+      {
+        "team": "Belgium",
+        "p_final_pct": 1.8
+      }
+    ]
+  },
+  "calc": [
+    {
+      "group": "D",
+      "team": "United States",
+      "w_pct": 43.51851851851852,
+      "q_pct": 82,
+      "alpha": 0.698019801980198,
+      "remaining": 38.48148148148148,
+      "p2nd": 0.2983388623131296,
+      "final_p1st": 0.4351851851851852,
+      "final_p2nd": 0.2983388623131296,
+      "source": "Market"
+    },
+    {
+      "group": "D",
+      "team": "Paraguay",
+      "w_pct": 21.296296296296298,
+      "q_pct": 62,
+      "alpha": 0.4480519480519481,
+      "remaining": 40.7037037037037,
+      "p2nd": 0.22298972255304128,
+      "final_p1st": 0.21296296296296297,
+      "final_p2nd": 0.22298972255304128,
+      "source": "Market"
+    },
+    {
+      "group": "D",
+      "team": "Australia",
+      "w_pct": 13.88888888888889,
+      "q_pct": 48,
+      "alpha": 0.32608695652173914,
+      "remaining": 34.111111111111114,
+      "p2nd": 0.14304351877737398,
+      "final_p1st": 0.1388888888888889,
+      "final_p2nd": 0.14304351877737398,
+      "source": "Market"
+    },
+    {
+      "group": "D",
+      "team": "TBD_C",
+      "w_pct": 21.296296296296298,
+      "q_pct": 49,
+      "alpha": 0.4480519480519481,
+      "remaining": 27.703703703703702,
+      "p2nd": 0.15177098495875788,
+      "final_p1st": 0.21296296296296297,
+      "final_p2nd": 0.15177098495875788,
+      "source": "Market"
+    },
+    {
+      "group": "E",
+      "team": "Germany",
+      "w_pct": 69.47368421052632,
+      "q_pct": 97,
+      "alpha": 0.8722466960352422,
+      "remaining": 27.526315789473685,
+      "p2nd": 0.2506650658288088,
+      "final_p1st": 0.6947368421052631,
+      "final_p2nd": 0.2506650658288088,
+      "source": "Market"
+    },
+    {
+      "group": "E",
+      "team": "Ecuador",
+      "w_pct": 18.947368421052634,
+      "q_pct": 88,
+      "alpha": 0.41221374045801534,
+      "remaining": 69.05263157894737,
+      "p2nd": 0.35314348946521057,
+      "final_p1st": 0.18947368421052635,
+      "final_p2nd": 0.35314348946521057,
+      "source": "Market"
+    },
+    {
+      "group": "E",
+      "team": "Ivory Coast",
+      "w_pct": 10.526315789473683,
+      "q_pct": 73,
+      "alpha": 0.2608695652173913,
+      "remaining": 62.473684210526315,
+      "p2nd": 0.21555037680457612,
+      "final_p1st": 0.10526315789473684,
+      "final_p2nd": 0.21555037680457612,
+      "source": "Market"
+    },
+    {
+      "group": "E",
+      "team": "Curacao",
+      "w_pct": 1.0526315789473684,
+      "q_pct": 13,
+      "alpha": 0.03092783505154639,
+      "remaining": 11.947368421052632,
+      "p2nd": 0.005432268151433448,
+      "final_p1st": 0.010526315789473684,
+      "final_p2nd": 0.005432268151433448,
+      "source": "Market"
+    },
+    {
+      "group": "G",
+      "team": "Belgium",
+      "w_pct": 68.68686868686868,
+      "q_pct": 95,
+      "alpha": 0.8680851063829788,
+      "remaining": 26.313131313131322,
+      "p2nd": 0.23881651412015792,
+      "final_p1st": 0.6868686868686867,
+      "final_p2nd": 0.23881651412015792,
+      "source": "Market"
+    },
+    {
+      "group": "G",
+      "team": "Egypt",
+      "w_pct": 18.181818181818183,
+      "q_pct": 58,
+      "alpha": 0.4,
+      "remaining": 39.81818181818181,
+      "p2nd": 0.19859442303332575,
+      "final_p1st": 0.18181818181818182,
+      "final_p2nd": 0.19859442303332575,
+      "source": "Market"
+    },
+    {
+      "group": "G",
+      "team": "Iran",
+      "w_pct": 8.080808080808081,
+      "q_pct": 35,
+      "alpha": 0.20869565217391306,
+      "remaining": 26.919191919191917,
+      "p2nd": 0.0760339656420626,
+      "final_p1st": 0.08080808080808081,
+      "final_p2nd": 0.0760339656420626,
+      "source": "Market"
+    },
+    {
+      "group": "G",
+      "team": "New Zealand",
+      "w_pct": 5.05050505050505,
+      "q_pct": 12,
+      "alpha": 0.13761467889908258,
+      "remaining": 6.94949494949495,
+      "p2nd": 0.013367841015955919,
+      "final_p1st": 0.050505050505050504,
+      "final_p2nd": 0.013367841015955919,
+      "source": "Market"
+    },
+    {
+      "group": "H",
+      "team": "Spain",
+      "w_pct": 77.45098039215686,
+      "q_pct": 98,
+      "alpha": 0.9115384615384616,
+      "remaining": 20.549019607843135,
+      "p2nd": 0.19294471879318661,
+      "final_p1st": 0.7745098039215687,
+      "final_p2nd": 0.19294471879318661,
+      "source": "Market"
+    },
+    {
+      "group": "H",
+      "team": "Uruguay",
+      "w_pct": 14.705882352941178,
+      "q_pct": 72,
+      "alpha": 0.3409090909090909,
+      "remaining": 57.294117647058826,
+      "p2nd": 0.249611317079838,
+      "final_p1st": 0.14705882352941177,
+      "final_p2nd": 0.249611317079838,
+      "source": "Market"
+    },
+    {
+      "group": "H",
+      "team": "Saudi Arabia",
+      "w_pct": 3.9215686274509802,
+      "q_pct": 22,
+      "alpha": 0.10909090909090909,
+      "remaining": 18.07843137254902,
+      "p2nd": 0.027934738149702317,
+      "final_p1st": 0.0392156862745098,
+      "final_p2nd": 0.027934738149702317,
+      "source": "Market"
+    },
+    {
+      "group": "H",
+      "team": "Cape Verde",
+      "w_pct": 3.9215686274509802,
+      "q_pct": 8,
+      "alpha": 0.10909090909090909,
+      "remaining": 4.078431372549019,
+      "p2nd": 0.006301979973034796,
+      "final_p1st": 0.0392156862745098,
+      "final_p2nd": 0.006301979973034796,
+      "source": "Market"
+    },
+    {
+      "group": "I",
+      "team": "France",
+      "w_pct": 68.31683168316832,
+      "q_pct": 94,
+      "alpha": 0.8661087866108786,
+      "remaining": 25.683168316831683,
+      "p2nd": 0.23272701110068983,
+      "final_p1st": 0.6831683168316832,
+      "final_p2nd": 0.23272701110068983,
+      "source": "Market"
+    },
+    {
+      "group": "I",
+      "team": "Senegal",
+      "w_pct": 8.91089108910891,
+      "q_pct": 64,
+      "alpha": 0.22689075630252098,
+      "remaining": 55.08910891089109,
+      "p2nd": 0.1678030167637702,
+      "final_p1st": 0.0891089108910891,
+      "final_p2nd": 0.1678030167637702,
+      "source": "Market"
+    },
+    {
+      "group": "I",
+      "team": "Norway",
+      "w_pct": 21.782178217821784,
+      "q_pct": 78,
+      "alpha": 0.45517241379310347,
+      "remaining": 56.21782178217822,
+      "p2nd": 0.3119798400423579,
+      "final_p1st": 0.21782178217821785,
+      "final_p2nd": 0.3119798400423579,
+      "source": "Market"
+    },
+    {
+      "group": "I",
+      "team": "TBD_I4",
+      "w_pct": 0.9900990099009901,
+      "q_pct": 10,
+      "alpha": 0.02912621359223301,
+      "remaining": 9.009900990099009,
+      "p2nd": 0.0038613861386138605,
+      "final_p1st": 0.009900990099009901,
+      "final_p2nd": 0.0038613861386138605,
+      "source": "Market"
+    },
+    {
+      "group": "J",
+      "team": "Argentina",
+      "w_pct": 68.80733944954129,
+      "q_pct": 97,
+      "alpha": 0.8687258687258688,
+      "remaining": 28.19266055045871,
+      "p2nd": 0.2560072896865449,
+      "final_p1st": 0.6880733944954129,
+      "final_p2nd": 0.2560072896865449,
+      "source": "Market"
+    },
+    {
+      "group": "J",
+      "team": "Austria",
+      "w_pct": 16.51376146788991,
+      "q_pct": 74,
+      "alpha": 0.3724137931034483,
+      "remaining": 57.48623853211009,
+      "p2nd": 0.2700058172335344,
+      "final_p1st": 0.1651376146788991,
+      "final_p2nd": 0.2700058172335344,
+      "source": "Market"
+    },
+    {
+      "group": "J",
+      "team": "Jordan",
+      "w_pct": 4.587155963302752,
+      "q_pct": 32,
+      "alpha": 0.12605042016806722,
+      "remaining": 27.412844036697248,
+      "p2nd": 0.04855841527520769,
+      "final_p1st": 0.045871559633027525,
+      "final_p2nd": 0.04855841527520769,
+      "source": "Market"
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "w_pct": 10.091743119266056,
+      "q_pct": 64,
+      "alpha": 0.25190839694656486,
+      "remaining": 53.908256880733944,
+      "p2nd": 0.1803134479083945,
+      "final_p1st": 0.10091743119266056,
+      "final_p2nd": 0.1803134479083945,
+      "source": "Market"
+    },
+    {
+      "group": "K",
+      "team": "Portugal",
+      "w_pct": 66.99029126213593,
+      "q_pct": 92,
+      "alpha": 0.8589211618257261,
+      "remaining": 25.009708737864074,
+      "p2nd": 0.22530288574888424,
+      "final_p1st": 0.6699029126213593,
+      "final_p2nd": 0.22530288574888424,
+      "source": "Market"
+    },
+    {
+      "group": "K",
+      "team": "Colombia",
+      "w_pct": 30.097087378640776,
+      "q_pct": 85,
+      "alpha": 0.5636363636363636,
+      "remaining": 54.90291262135922,
+      "p2nd": 0.36151025727742897,
+      "final_p1st": 0.30097087378640774,
+      "final_p2nd": 0.36151025727742897,
+      "source": "Market"
+    },
+    {
+      "group": "K",
+      "team": "Uzbekistan",
+      "w_pct": 1.9417475728155338,
+      "q_pct": 29,
+      "alpha": 0.05607476635514017,
+      "remaining": 27.058252427184467,
+      "p2nd": 0.02203739847469889,
+      "final_p1st": 0.019417475728155338,
+      "final_p2nd": 0.02203739847469889,
+      "source": "Market"
+    },
+    {
+      "group": "K",
+      "team": "TBD_K4",
+      "w_pct": 0.9708737864077669,
+      "q_pct": 10,
+      "alpha": 0.028571428571428567,
+      "remaining": 9.029126213592233,
+      "p2nd": 0.0037969412168175915,
+      "final_p1st": 0.009708737864077669,
+      "final_p2nd": 0.0037969412168175915,
+      "source": "Market"
+    },
+    {
+      "group": "L",
+      "team": "England",
+      "w_pct": 67.64705882352942,
+      "q_pct": 94,
+      "alpha": 0.8625,
+      "remaining": 26.35294117647058,
+      "p2nd": 0.23809780557502552,
+      "final_p1st": 0.6764705882352942,
+      "final_p2nd": 0.23809780557502552,
+      "source": "Market"
+    },
+    {
+      "group": "L",
+      "team": "Croatia",
+      "w_pct": 21.568627450980394,
+      "q_pct": 68,
+      "alpha": 0.452054794520548,
+      "remaining": 46.431372549019606,
+      "p2nd": 0.2562266378123155,
+      "final_p1st": 0.21568627450980393,
+      "final_p2nd": 0.2562266378123155,
+      "source": "Market"
+    },
+    {
+      "group": "L",
+      "team": "Ghana",
+      "w_pct": 9.803921568627452,
+      "q_pct": 28,
+      "alpha": 0.24590163934426226,
+      "remaining": 18.19607843137255,
+      "p2nd": 0.0595681310498883,
+      "final_p1st": 0.09803921568627452,
+      "final_p2nd": 0.0595681310498883,
+      "source": "Market"
+    },
+    {
+      "group": "L",
+      "team": "Panama",
+      "w_pct": 0.9803921568627451,
+      "q_pct": 10,
+      "alpha": 0.028846153846153844,
+      "remaining": 9.019607843137255,
+      "p2nd": 0.0038288981929265257,
+      "final_p1st": 0.00980392156862745,
+      "final_p2nd": 0.0038288981929265257,
+      "source": "Market"
+    }
+  ],
+  "dallas_matches": [
+    {
+      "priority": "P0 - BOOK NOW",
+      "date": "Jun 14",
+      "match": "M11 (Group F)",
+      "teams": "Netherlands vs Japan",
+      "notes": ""
+    },
+    {
+      "priority": "P0 - BOOK NOW",
+      "date": "Jun 17",
+      "match": "M21 (Group L)",
+      "teams": "England vs Croatia",
+      "notes": "Premium European matchup (2018 semifinals)"
+    },
+    {
+      "priority": "P0 - BOOK NOW",
+      "date": "Jun 22",
+      "match": "M43 (Group J)",
+      "teams": "Argentina vs Austria",
+      "notes": "Defending champs"
+    },
+    {
+      "priority": "P0 - BOOK NOW",
+      "date": "Jun 27",
+      "match": "M70 (Group J)",
+      "teams": "Argentina vs Jordan",
+      "notes": ""
+    },
+    {
+      "priority": "P1 - MONITOR",
+      "date": "Jun 30",
+      "match": "M78 (R32)",
+      "teams": "2E vs 2I",
+      "notes": "Germany/France possible"
+    },
+    {
+      "priority": "P1 - MONITOR",
+      "date": "Jul 3",
+      "match": "M88 (R32)",
+      "teams": "2D vs 2G",
+      "notes": "USA/Belgium possible"
+    },
+    {
+      "priority": "P2 - TENTATIVE",
+      "date": "Jul 6",
+      "match": "M93 (R16)",
+      "teams": "W83 vs W84",
+      "notes": "Top teams "
+    },
+    {
+      "priority": "P0 - BOOK NOW",
+      "date": "Jul 14",
+      "match": "M101 (SF)",
+      "teams": "W97 vs W98",
+      "notes": "SEMIFINAL - Premium"
+    }
+  ],
+  "dashboard_top3": {},
+  "match_predictions": {
+    "M78": {
+      "title": "M78 - DALLAS R32 | Jun 30",
+      "slot": "2E vs 2I",
+      "group1_candidates": [
+        {
+          "team": "Germany",
+          "prob": 0.2506650658288088,
+          "rank": 2
+        },
+        {
+          "team": "Ecuador",
+          "prob": 0.35314348946521057,
+          "rank": 1
+        },
+        {
+          "team": "Ivory Coast",
+          "prob": 0.21555037680457612,
+          "rank": 3
+        },
+        {
+          "team": "Curacao",
+          "prob": 0.005432268151433448,
+          "rank": 4
+        }
+      ],
+      "group2_candidates": [
+        {
+          "team": "France",
+          "prob": 0.23272701110068983,
+          "rank": 2
+        },
+        {
+          "team": "Senegal",
+          "prob": 0.1678030167637702,
+          "rank": 3
+        },
+        {
+          "team": "Norway",
+          "prob": 0.3119798400423579,
+          "rank": 1
+        },
+        {
+          "team": "TBD_I4",
+          "prob": 0.0038613861386138605,
+          "rank": 4
+        }
+      ],
+      "matchups": [
+        {
+          "num": 1,
+          "team1": "Germany",
+          "p1": 0.2506650658288088,
+          "team2": "France",
+          "p2": 0.23272701110068983,
+          "combined": 0.05833653155769634,
+          "rank": 6
+        },
+        {
+          "num": 2,
+          "team1": "Germany",
+          "p1": 0.2506650658288088,
+          "team2": "Senegal",
+          "p2": 0.1678030167637702,
+          "combined": 0.04206235424336317,
+          "rank": 8
+        },
+        {
+          "num": 3,
+          "team1": "Germany",
+          "p1": 0.2506650658288088,
+          "team2": "Norway",
+          "p2": 0.3119798400423579,
+          "combined": 0.07820244714147889,
+          "rank": 3
+        },
+        {
+          "num": 4,
+          "team1": "Germany",
+          "p1": 0.2506650658288088,
+          "team2": "TBD_I4",
+          "p2": 0.0038613861386138605,
+          "combined": 0.0009679146106260933,
+          "rank": 13
+        },
+        {
+          "num": 5,
+          "team1": "Ecuador",
+          "p1": 0.35314348946521057,
+          "team2": "France",
+          "p2": 0.23272701110068983,
+          "combined": 0.0821860287929064,
+          "rank": 2
+        },
+        {
+          "num": 6,
+          "team1": "Ecuador",
+          "p1": 0.35314348946521057,
+          "team2": "Senegal",
+          "p2": 0.1678030167637702,
+          "combined": 0.05925854288274704,
+          "rank": 5
+        },
+        {
+          "num": 7,
+          "team1": "Ecuador",
+          "p1": 0.35314348946521057,
+          "team2": "Norway",
+          "p2": 0.3119798400423579,
+          "combined": 0.11017364935535649,
+          "rank": 1
+        },
+        {
+          "num": 8,
+          "team1": "Ecuador",
+          "p1": 0.35314348946521057,
+          "team2": "TBD_I4",
+          "p2": 0.0038613861386138605,
+          "combined": 0.0013636233751626939,
+          "rank": 11
+        },
+        {
+          "num": 9,
+          "team1": "Ivory Coast",
+          "p1": 0.21555037680457612,
+          "team2": "France",
+          "p2": 0.23272701110068983,
+          "combined": 0.05016439493535646,
+          "rank": 7
+        },
+        {
+          "num": 10,
+          "team1": "Ivory Coast",
+          "p1": 0.21555037680457612,
+          "team2": "Senegal",
+          "p2": 0.1678030167637702,
+          "combined": 0.03617000349237527,
+          "rank": 9
+        },
+        {
+          "num": 11,
+          "team1": "Ivory Coast",
+          "p1": 0.21555037680457612,
+          "team2": "Norway",
+          "p2": 0.3119798400423579,
+          "combined": 0.06724737207656163,
+          "rank": 4
+        },
+        {
+          "num": 12,
+          "team1": "Ivory Coast",
+          "p1": 0.21555037680457612,
+          "team2": "TBD_I4",
+          "p2": 0.0038613861386138605,
+          "combined": 0.0008323232371661849,
+          "rank": 15
+        },
+        {
+          "num": 13,
+          "team1": "Curacao",
+          "p1": 0.005432268151433448,
+          "team2": "France",
+          "p2": 0.23272701110068983,
+          "combined": 0.0012642355303805759,
+          "rank": 12
+        },
+        {
+          "num": 14,
+          "team1": "Curacao",
+          "p1": 0.005432268151433448,
+          "team2": "Senegal",
+          "p2": 0.1678030167637702,
+          "combined": 0.0009115509836802819,
+          "rank": 14
+        },
+        {
+          "num": 15,
+          "team1": "Curacao",
+          "p1": 0.005432268151433448,
+          "team2": "Norway",
+          "p2": 0.3119798400423579,
+          "combined": 0.0016947581489514024,
+          "rank": 10
+        },
+        {
+          "num": 16,
+          "team1": "Curacao",
+          "p1": 0.005432268151433448,
+          "team2": "TBD_I4",
+          "p2": 0.0038613861386138605,
+          "combined": 2.0976084941178654e-05,
+          "rank": 16
+        }
+      ]
+    },
+    "M83": {
+      "title": "M83 - Toronto R32 (feeds M93) | Jul 4",
+      "slot": "2K vs 2L",
+      "group1_candidates": [
+        {
+          "team": "Portugal",
+          "prob": 0.22530288574888424,
+          "rank": 2
+        },
+        {
+          "team": "Colombia",
+          "prob": 0.36151025727742897,
+          "rank": 1
+        },
+        {
+          "team": "Uzbekistan",
+          "prob": 0.02203739847469889,
+          "rank": 3
+        },
+        {
+          "team": "TBD_K4",
+          "prob": 0.0037969412168175915,
+          "rank": 4
+        }
+      ],
+      "group2_candidates": [
+        {
+          "team": "England",
+          "prob": 0.23809780557502552,
+          "rank": 2
+        },
+        {
+          "team": "Croatia",
+          "prob": 0.2562266378123155,
+          "rank": 1
+        },
+        {
+          "team": "Ghana",
+          "prob": 0.0595681310498883,
+          "rank": 3
+        },
+        {
+          "team": "Panama",
+          "prob": 0.0038288981929265257,
+          "rank": 4
+        }
+      ],
+      "matchups": [
+        {
+          "num": 1,
+          "team1": "Portugal",
+          "p1": 0.22530288574888424,
+          "team2": "England",
+          "p2": 0.23809780557502552,
+          "combined": 0.05364412268653003,
+          "rank": 4
+        },
+        {
+          "num": 2,
+          "team1": "Portugal",
+          "p1": 0.22530288574888424,
+          "team2": "Croatia",
+          "p2": 0.2562266378123155,
+          "combined": 0.05772860090484887,
+          "rank": 3
+        },
+        {
+          "num": 3,
+          "team1": "Portugal",
+          "p1": 0.22530288574888424,
+          "team2": "Ghana",
+          "p2": 0.0595681310498883,
+          "combined": 0.013420871824207547,
+          "rank": 6
+        },
+        {
+          "num": 4,
+          "team1": "Portugal",
+          "p1": 0.22530288574888424,
+          "team2": "Panama",
+          "p2": 0.0038288981929265257,
+          "combined": 0.0008626618121050344,
+          "rank": 13
+        },
+        {
+          "num": 5,
+          "team1": "Colombia",
+          "p1": 0.36151025727742897,
+          "team2": "England",
+          "p2": 0.23809780557502552,
+          "combined": 0.08607479895061874,
+          "rank": 2
+        },
+        {
+          "num": 6,
+          "team1": "Colombia",
+          "p1": 0.36151025727742897,
+          "team2": "Croatia",
+          "p2": 0.2562266378123155,
+          "combined": 0.0926285577568608,
+          "rank": 1
+        },
+        {
+          "num": 7,
+          "team1": "Colombia",
+          "p1": 0.36151025727742897,
+          "team2": "Ghana",
+          "p2": 0.0595681310498883,
+          "combined": 0.021534490381380725,
+          "rank": 5
+        },
+        {
+          "num": 8,
+          "team1": "Colombia",
+          "p1": 0.36151025727742897,
+          "team2": "Panama",
+          "p2": 0.0038288981929265257,
+          "combined": 0.0013841859708139512,
+          "rank": 9
+        },
+        {
+          "num": 9,
+          "team1": "Uzbekistan",
+          "p1": 0.02203739847469889,
+          "team2": "England",
+          "p2": 0.23809780557502552,
+          "combined": 0.005247056217408221,
+          "rank": 8
+        },
+        {
+          "num": 10,
+          "team1": "Uzbekistan",
+          "p1": 0.02203739847469889,
+          "team2": "Croatia",
+          "p2": 0.2562266378123155,
+          "combined": 0.005646568517302347,
+          "rank": 7
+        },
+        {
+          "num": 11,
+          "team1": "Uzbekistan",
+          "p1": 0.02203739847469889,
+          "team2": "Ghana",
+          "p2": 0.0595681310498883,
+          "combined": 0.001312726640339472,
+          "rank": 10
+        },
+        {
+          "num": 12,
+          "team1": "Uzbekistan",
+          "p1": 0.02203739847469889,
+          "team2": "Panama",
+          "p2": 0.0038288981929265257,
+          "combined": 8.437895519657636e-05,
+          "rank": 15
+        },
+        {
+          "num": 13,
+          "team1": "TBD_K4",
+          "p1": 0.0037969412168175915,
+          "team2": "England",
+          "p2": 0.23809780557502552,
+          "combined": 0.0009040433716216357,
+          "rank": 12
+        },
+        {
+          "num": 14,
+          "team1": "TBD_K4",
+          "p1": 0.0037969412168175915,
+          "team2": "Croatia",
+          "p2": 0.2562266378123155,
+          "combined": 0.0009728774819561737,
+          "rank": 11
+        },
+        {
+          "num": 15,
+          "team1": "TBD_K4",
+          "p1": 0.0037969412168175915,
+          "team2": "Ghana",
+          "p2": 0.0595681310498883,
+          "combined": 0.00022617669199211264,
+          "rank": 14
+        },
+        {
+          "num": 16,
+          "team1": "TBD_K4",
+          "p1": 0.0037969412168175915,
+          "team2": "Panama",
+          "p2": 0.0038288981929265257,
+          "combined": 1.453810136372112e-05,
+          "rank": 16
+        }
+      ]
+    },
+    "M84": {
+      "title": "M84 - LA R32 (feeds M93) | Jul 4",
+      "slot": "1H vs 2J",
+      "group1_candidates": [
+        {
+          "team": "Spain",
+          "prob": 0.7745098039215687,
+          "rank": 1
+        },
+        {
+          "team": "Uruguay",
+          "prob": 0.14705882352941177,
+          "rank": 2
+        },
+        {
+          "team": "Saudi Arabia",
+          "prob": 0.0392156862745098,
+          "rank": 3
+        },
+        {
+          "team": "Cape Verde",
+          "prob": 0.0392156862745098,
+          "rank": 3
+        }
+      ],
+      "group2_candidates": [
+        {
+          "team": "Argentina",
+          "prob": 0.2560072896865449,
+          "rank": 2
+        },
+        {
+          "team": "Austria",
+          "prob": 0.2700058172335344,
+          "rank": 1
+        },
+        {
+          "team": "Jordan",
+          "prob": 0.04855841527520769,
+          "rank": 4
+        },
+        {
+          "team": "Algeria",
+          "prob": 0.1803134479083945,
+          "rank": 3
+        }
+      ],
+      "matchups": [
+        {
+          "num": 1,
+          "team1": "Spain",
+          "p1": 0.7745098039215687,
+          "team2": "Argentina",
+          "p2": 0.2560072896865449,
+          "combined": 0.19828015573761812,
+          "rank": 2
+        },
+        {
+          "num": 2,
+          "team1": "Spain",
+          "p1": 0.7745098039215687,
+          "team2": "Austria",
+          "p2": 0.2700058172335344,
+          "combined": 0.20912215256322764,
+          "rank": 1
+        },
+        {
+          "num": 3,
+          "team1": "Spain",
+          "p1": 0.7745098039215687,
+          "team2": "Jordan",
+          "p2": 0.04855841527520769,
+          "combined": 0.037608968693543215,
+          "rank": 6
+        },
+        {
+          "num": 4,
+          "team1": "Spain",
+          "p1": 0.7745098039215687,
+          "team2": "Algeria",
+          "p2": 0.1803134479083945,
+          "combined": 0.1396545331839526,
+          "rank": 3
+        },
+        {
+          "num": 5,
+          "team1": "Uruguay",
+          "p1": 0.14705882352941177,
+          "team2": "Argentina",
+          "p2": 0.2560072896865449,
+          "combined": 0.03764813083625661,
+          "rank": 5
+        },
+        {
+          "num": 6,
+          "team1": "Uruguay",
+          "p1": 0.14705882352941177,
+          "team2": "Austria",
+          "p2": 0.2700058172335344,
+          "combined": 0.039706737828460945,
+          "rank": 4
+        },
+        {
+          "num": 7,
+          "team1": "Uruguay",
+          "p1": 0.14705882352941177,
+          "team2": "Jordan",
+          "p2": 0.04855841527520769,
+          "combined": 0.007140943422824661,
+          "rank": 12
+        },
+        {
+          "num": 8,
+          "team1": "Uruguay",
+          "p1": 0.14705882352941177,
+          "team2": "Algeria",
+          "p2": 0.1803134479083945,
+          "combined": 0.026516683515940366,
+          "rank": 7
+        },
+        {
+          "num": 9,
+          "team1": "Saudi Arabia",
+          "p1": 0.0392156862745098,
+          "team2": "Argentina",
+          "p2": 0.2560072896865449,
+          "combined": 0.010039501556335094,
+          "rank": 10
+        },
+        {
+          "num": 10,
+          "team1": "Saudi Arabia",
+          "p1": 0.0392156862745098,
+          "team2": "Austria",
+          "p2": 0.2700058172335344,
+          "combined": 0.010588463420922917,
+          "rank": 8
+        },
+        {
+          "num": 11,
+          "team1": "Saudi Arabia",
+          "p1": 0.0392156862745098,
+          "team2": "Jordan",
+          "p2": 0.04855841527520769,
+          "combined": 0.0019042515794199094,
+          "rank": 15
+        },
+        {
+          "num": 12,
+          "team1": "Saudi Arabia",
+          "p1": 0.0392156862745098,
+          "team2": "Algeria",
+          "p2": 0.1803134479083945,
+          "combined": 0.007071115604250764,
+          "rank": 13
+        },
+        {
+          "num": 13,
+          "team1": "Cape Verde",
+          "p1": 0.0392156862745098,
+          "team2": "Argentina",
+          "p2": 0.2560072896865449,
+          "combined": 0.010039501556335094,
+          "rank": 10
+        },
+        {
+          "num": 14,
+          "team1": "Cape Verde",
+          "p1": 0.0392156862745098,
+          "team2": "Austria",
+          "p2": 0.2700058172335344,
+          "combined": 0.010588463420922917,
+          "rank": 8
+        },
+        {
+          "num": 15,
+          "team1": "Cape Verde",
+          "p1": 0.0392156862745098,
+          "team2": "Jordan",
+          "p2": 0.04855841527520769,
+          "combined": 0.0019042515794199094,
+          "rank": 15
+        },
+        {
+          "num": 16,
+          "team1": "Cape Verde",
+          "p1": 0.0392156862745098,
+          "team2": "Algeria",
+          "p2": 0.1803134479083945,
+          "combined": 0.007071115604250764,
+          "rank": 13
+        }
+      ]
+    },
+    "M88": {
+      "title": "M88 - DALLAS R32 | Jul 3",
+      "slot": "2D vs 2G",
+      "group1_candidates": [
+        {
+          "team": "United States",
+          "prob": 0.2983388623131296,
+          "rank": 1
+        },
+        {
+          "team": "Paraguay",
+          "prob": 0.22298972255304128,
+          "rank": 2
+        },
+        {
+          "team": "Australia",
+          "prob": 0.14304351877737398,
+          "rank": 4
+        },
+        {
+          "team": "TBD_C",
+          "prob": 0.15177098495875788,
+          "rank": 3
+        }
+      ],
+      "group2_candidates": [
+        {
+          "team": "Belgium",
+          "prob": 0.23881651412015792,
+          "rank": 1
+        },
+        {
+          "team": "Egypt",
+          "prob": 0.19859442303332575,
+          "rank": 2
+        },
+        {
+          "team": "Iran",
+          "prob": 0.0760339656420626,
+          "rank": 3
+        },
+        {
+          "team": "New Zealand",
+          "prob": 0.013367841015955919,
+          "rank": 4
+        }
+      ],
+      "matchups": [
+        {
+          "num": 1,
+          "team1": "United States",
+          "p1": 0.2983388623131296,
+          "team2": "Belgium",
+          "p2": 0.23881651412015792,
+          "combined": 0.07124824712419536,
+          "rank": 1
+        },
+        {
+          "num": 2,
+          "team1": "United States",
+          "p1": 0.2983388623131296,
+          "team2": "Egypt",
+          "p2": 0.19859442303332575,
+          "combined": 0.05924843422949479,
+          "rank": 2
+        },
+        {
+          "num": 3,
+          "team1": "United States",
+          "p1": 0.2983388623131296,
+          "team2": "Iran",
+          "p2": 0.0760339656420626,
+          "combined": 0.022683886806808544,
+          "rank": 9
+        },
+        {
+          "num": 4,
+          "team1": "United States",
+          "p1": 0.2983388623131296,
+          "team2": "New Zealand",
+          "p2": 0.013367841015955919,
+          "combined": 0.0039881464802830795,
+          "rank": 13
+        },
+        {
+          "num": 5,
+          "team1": "Paraguay",
+          "p1": 0.22298972255304128,
+          "team2": "Belgium",
+          "p2": 0.23881651412015792,
+          "combined": 0.05325362822473848,
+          "rank": 3
+        },
+        {
+          "num": 6,
+          "team1": "Paraguay",
+          "p1": 0.22298972255304128,
+          "team2": "Egypt",
+          "p2": 0.19859442303332575,
+          "combined": 0.04428451529278262,
+          "rank": 4
+        },
+        {
+          "num": 7,
+          "team1": "Paraguay",
+          "p1": 0.22298972255304128,
+          "team2": "Iran",
+          "p2": 0.0760339656420626,
+          "combined": 0.016954792903131014,
+          "rank": 10
+        },
+        {
+          "num": 8,
+          "team1": "Paraguay",
+          "p1": 0.22298972255304128,
+          "team2": "New Zealand",
+          "p2": 0.013367841015955919,
+          "combined": 0.0029808911592811758,
+          "rank": 14
+        },
+        {
+          "num": 9,
+          "team1": "Australia",
+          "p1": 0.14304351877737398,
+          "team2": "Belgium",
+          "p2": 0.23881651412015792,
+          "combined": 0.034161154521893805,
+          "rank": 6
+        },
+        {
+          "num": 10,
+          "team1": "Australia",
+          "p1": 0.14304351877737398,
+          "team2": "Egypt",
+          "p2": 0.19859442303332575,
+          "combined": 0.028407645080249285,
+          "rank": 8
+        },
+        {
+          "num": 11,
+          "team1": "Australia",
+          "p1": 0.14304351877737398,
+          "team2": "Iran",
+          "p2": 0.0760339656420626,
+          "combined": 0.01087616599203859,
+          "rank": 12
+        },
+        {
+          "num": 12,
+          "team1": "Australia",
+          "p1": 0.14304351877737398,
+          "team2": "New Zealand",
+          "p2": 0.013367841015955919,
+          "combined": 0.0019121830173788406,
+          "rank": 16
+        },
+        {
+          "num": 13,
+          "team1": "TBD_C",
+          "p1": 0.15177098495875788,
+          "team2": "Belgium",
+          "p2": 0.23881651412015792,
+          "combined": 0.03624541757243348,
+          "rank": 5
+        },
+        {
+          "num": 14,
+          "team1": "TBD_C",
+          "p1": 0.15177098495875788,
+          "team2": "Egypt",
+          "p2": 0.19859442303332575,
+          "combined": 0.030140871191084082,
+          "rank": 7
+        },
+        {
+          "num": 15,
+          "team1": "TBD_C",
+          "p1": 0.15177098495875788,
+          "team2": "Iran",
+          "p2": 0.0760339656420626,
+          "combined": 0.011539749855816198,
+          "rank": 11
+        },
+        {
+          "num": 16,
+          "team1": "TBD_C",
+          "p1": 0.15177098495875788,
+          "team2": "New Zealand",
+          "p2": 0.013367841015955919,
+          "combined": 0.0020288503977637126,
+          "rank": 15
+        }
+      ]
+    },
+    "M93": {
+      "title": "M93 - DALLAS R16 | Jul 6",
+      "slot": "W83 vs W84 | Uses knockout odds + IF statements for confirmed winners",
+      "w83_candidates": [
+        {
+          "team": "Portugal",
+          "group": "K",
+          "p_pos": 0.22530288574888424,
+          "p_win_match": 0.12391658716188633
+        },
+        {
+          "team": "Colombia",
+          "group": "K",
+          "p_pos": 0.36151025727742897,
+          "p_win_match": 0.19883064150258595
+        },
+        {
+          "team": "Uzbekistan",
+          "group": "K",
+          "p_pos": 0.02203739847469889,
+          "p_win_match": 0.012120569161084388
+        },
+        {
+          "team": "TBD_K4",
+          "group": "K",
+          "p_pos": 0.0037969412168175915,
+          "p_win_match": 0.0020883176692496753
+        },
+        {
+          "team": "England",
+          "group": "L",
+          "p_pos": 0.23809780557502552,
+          "p_win_match": 0.13095379306626403
+        },
+        {
+          "team": "Croatia",
+          "group": "L",
+          "p_pos": 0.2562266378123155,
+          "p_win_match": 0.14092465079677352
+        },
+        {
+          "team": "Ghana",
+          "group": "L",
+          "p_pos": 0.0595681310498883,
+          "p_win_match": 0.03276247207743856
+        },
+        {
+          "team": "Panama",
+          "group": "L",
+          "p_pos": 0.0038288981929265257,
+          "p_win_match": 0.002105894006109589
+        }
+      ],
+      "w84_candidates": [
+        {
+          "team": "Spain",
+          "group": "H",
+          "p_pos": 0.7745098039215687,
+          "p_win_match": 0.34852941176470587
+        },
+        {
+          "team": "Uruguay",
+          "group": "H",
+          "p_pos": 0.14705882352941177,
+          "p_win_match": 0.0661764705882353
+        },
+        {
+          "team": "Saudi Arabia",
+          "group": "H",
+          "p_pos": 0.0392156862745098,
+          "p_win_match": 0.01764705882352941
+        },
+        {
+          "team": "Cape Verde",
+          "group": "H",
+          "p_pos": 0.0392156862745098,
+          "p_win_match": 0.01764705882352941
+        },
+        {
+          "team": "Argentina",
+          "group": "J",
+          "p_pos": 0.2560072896865449,
+          "p_win_match": 0.1408040093275997
+        },
+        {
+          "team": "Austria",
+          "group": "J",
+          "p_pos": 0.2700058172335344,
+          "p_win_match": 0.14850319947844393
+        },
+        {
+          "team": "Jordan",
+          "group": "J",
+          "p_pos": 0.04855841527520769,
+          "p_win_match": 0.02670712840136423
+        },
+        {
+          "team": "Algeria",
+          "group": "J",
+          "p_pos": 0.1803134479083945,
+          "p_win_match": 0.09917239634961696
+        }
+      ],
+      "matchups": [
+        {
+          "num": 1,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.043188575231422145,
+          "rank": 4
+        },
+        {
+          "num": 2,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.008200362385713067,
+          "rank": 21
+        },
+        {
+          "num": 3,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.0021867633028568177,
+          "rank": 36
+        },
+        {
+          "num": 4,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.0021867633028568177,
+          "rank": 36
+        },
+        {
+          "num": 5,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.017447952294586566,
+          "rank": 13
+        },
+        {
+          "num": 6,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.01840200966198959,
+          "rank": 12
+        },
+        {
+          "num": 7,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.0033094562043913408,
+          "rank": 30
+        },
+        {
+          "num": 8,
+          "team1": "Portugal",
+          "p1": 0.12391658716188633,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.012289104896310448,
+          "rank": 17
+        },
+        {
+          "num": 9,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.0692983265236954,
+          "rank": 1
+        },
+        {
+          "num": 10,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.013157910099435835,
+          "rank": 15
+        },
+        {
+          "num": 11,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.0035087760265162227,
+          "rank": 27
+        },
+        {
+          "num": 12,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.0035087760265162227,
+          "rank": 27
+        },
+        {
+          "num": 13,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.027996151500742746,
+          "rank": 6
+        },
+        {
+          "num": 14,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.029526986417485492,
+          "rank": 5
+        },
+        {
+          "num": 15,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.005310195472735183,
+          "rank": 22
+        },
+        {
+          "num": 16,
+          "team1": "Colombia",
+          "p1": 0.19883064150258595,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.01971851118554305,
+          "rank": 9
+        },
+        {
+          "num": 17,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.004224374839966176,
+          "rank": 25
+        },
+        {
+          "num": 18,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.0008020964886011727,
+          "rank": 43
+        },
+        {
+          "num": 19,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.00021389239696031274,
+          "rank": 53
+        },
+        {
+          "num": 20,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.00021389239696031274,
+          "rank": 53
+        },
+        {
+          "num": 21,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.0017066247332131435,
+          "rank": 40
+        },
+        {
+          "num": 22,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.0017999432999207907,
+          "rank": 39
+        },
+        {
+          "num": 23,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.0003237055968826963,
+          "rank": 48
+        },
+        {
+          "num": 24,
+          "team1": "Uzbekistan",
+          "p1": 0.012120569161084388,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.0012020258888260052,
+          "rank": 41
+        },
+        {
+          "num": 25,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.0007278401288414309,
+          "rank": 45
+        },
+        {
+          "num": 26,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.00013819749281799323,
+          "rank": 58
+        },
+        {
+          "num": 27,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 3.685266475146486e-05,
+          "rank": 63
+        },
+        {
+          "num": 28,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 3.685266475146486e-05,
+          "rank": 63
+        },
+        {
+          "num": 29,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.00029404350058002255,
+          "rank": 52
+        },
+        {
+          "num": 30,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.00031012185541094364,
+          "rank": 50
+        },
+        {
+          "num": 31,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 5.5772968135488756e-05,
+          "rank": 60
+        },
+        {
+          "num": 32,
+          "team1": "TBD_K4",
+          "p1": 0.0020883176692496753,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.0002071034675987371,
+          "rank": 56
+        },
+        {
+          "num": 33,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.045641248465742024,
+          "rank": 3
+        },
+        {
+          "num": 34,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.008666059835267474,
+          "rank": 20
+        },
+        {
+          "num": 35,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.0023109492894046596,
+          "rank": 34
+        },
+        {
+          "num": 36,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.0023109492894046596,
+          "rank": 34
+        },
+        {
+          "num": 37,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.0184388191003868,
+          "rank": 11
+        },
+        {
+          "num": 38,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.019447057254178276,
+          "rank": 10
+        },
+        {
+          "num": 39,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.0034973997660663943,
+          "rank": 29
+        },
+        {
+          "num": 40,
+          "team1": "England",
+          "p1": 0.13095379306626403,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.012987001469453257,
+          "rank": 16
+        },
+        {
+          "num": 41,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.04911638564534606,
+          "rank": 2
+        },
+        {
+          "num": 42,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.009325896008610012,
+          "rank": 19
+        },
+        {
+          "num": 43,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.002486905602296003,
+          "rank": 32
+        },
+        {
+          "num": 44,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.002486905602296003,
+          "rank": 32
+        },
+        {
+          "num": 45,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.01984275584527763,
+          "rank": 8
+        },
+        {
+          "num": 46,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.02092776152870331,
+          "rank": 7
+        },
+        {
+          "num": 47,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.0037636927437468466,
+          "rank": 26
+        },
+        {
+          "num": 48,
+          "team1": "Croatia",
+          "p1": 0.14092465079677352,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.013975835324248986,
+          "rank": 14
+        },
+        {
+          "num": 49,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.011418685121107263,
+          "rank": 18
+        },
+        {
+          "num": 50,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.0021681047698304933,
+          "rank": 38
+        },
+        {
+          "num": 51,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 0.0005781612719547982,
+          "rank": 46
+        },
+        {
+          "num": 52,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 0.0005781612719547982,
+          "rank": 46
+        },
+        {
+          "num": 53,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.004613087423986885,
+          "rank": 24
+        },
+        {
+          "num": 54,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.004865331926322808,
+          "rank": 23
+        },
+        {
+          "num": 55,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 0.000874991548518262,
+          "rank": 42
+        },
+        {
+          "num": 56,
+          "team1": "Ghana",
+          "p1": 0.03276247207743856,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.0032491328662569955,
+          "rank": 31
+        },
+        {
+          "num": 57,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Spain",
+          "p2": 0.34852941176470587,
+          "combined": 0.000733965999188195,
+          "rank": 44
+        },
+        {
+          "num": 58,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Uruguay",
+          "p2": 0.0661764705882353,
+          "combined": 0.00013936063275725221,
+          "rank": 57
+        },
+        {
+          "num": 59,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Saudi Arabia",
+          "p2": 0.01764705882352941,
+          "combined": 3.7162835401933923e-05,
+          "rank": 61
+        },
+        {
+          "num": 60,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Cape Verde",
+          "p2": 0.01764705882352941,
+          "combined": 3.7162835401933923e-05,
+          "rank": 61
+        },
+        {
+          "num": 61,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Argentina",
+          "p2": 0.1408040093275997,
+          "combined": 0.0002965183192791909,
+          "rank": 51
+        },
+        {
+          "num": 62,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Austria",
+          "p2": 0.14850319947844393,
+          "combined": 0.00031273199766975173,
+          "rank": 49
+        },
+        {
+          "num": 63,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Jordan",
+          "p2": 0.02670712840136423,
+          "combined": 5.6242381620832104e-05,
+          "rank": 59
+        },
+        {
+          "num": 64,
+          "team1": "Panama",
+          "p1": 0.002105894006109589,
+          "team2": "Algeria",
+          "p2": 0.09917239634961696,
+          "combined": 0.00020884655504418284,
+          "rank": 55
+        }
+      ]
+    },
+    "M101": {
+      "title": "M101 - DALLAS SEMIFINAL | Jul 14",
+      "formula": "P(Reach SF) = 2 \u00d7 P(Final) from market | Logic: P(Win SF) \u2248 50%",
+      "candidates": [
+        {
+          "team": "Argentina",
+          "p_final_pct": 10.4,
+          "p_reach_sf": 0.20800000000000002,
+          "path": "1J\u2192R32\u2192R16\u2192QF\u2192M101",
+          "rank": 3
+        },
+        {
+          "team": "Spain",
+          "p_final_pct": 15.9,
+          "p_reach_sf": 0.318,
+          "path": "1H\u2192M84\u2192M93\u2192QF\u2192M101",
+          "rank": 1
+        },
+        {
+          "team": "England",
+          "p_final_pct": 13,
+          "p_reach_sf": 0.26,
+          "path": "2L\u2192M83\u2192M93\u2192QF\u2192M101",
+          "rank": 2
+        },
+        {
+          "team": "Portugal",
+          "p_final_pct": 7.3,
+          "p_reach_sf": 0.146,
+          "path": "1K\u2192R32\u2192R16\u2192QF\u2192M101",
+          "rank": 4
+        },
+        {
+          "team": "Colombia",
+          "p_final_pct": 1.7,
+          "p_reach_sf": 0.034,
+          "path": "2K\u2192M83\u2192M93\u2192QF\u2192M101",
+          "rank": 5
+        },
+        {
+          "team": "Croatia",
+          "p_final_pct": 1.2,
+          "p_reach_sf": 0.024,
+          "path": "2L\u2192M83\u2192M93\u2192QF\u2192M101",
+          "rank": 6
+        },
+        {
+          "team": "Uruguay",
+          "p_final_pct": 1.2,
+          "p_reach_sf": 0.024,
+          "path": "2H\u2192R32\u2192R16\u2192QF\u2192M101",
+          "rank": 6
+        },
+        {
+          "team": "Austria",
+          "p_final_pct": 0.5,
+          "p_reach_sf": 0.01,
+          "path": "2J\u2192M84\u2192M93\u2192QF\u2192M101",
+          "rank": 8
+        }
+      ],
+      "top_matchups": [
+        {
+          "num": 1,
+          "team1": "Argentina",
+          "p1": 0.20800000000000002,
+          "team2": "Spain",
+          "p2": 0.318,
+          "combined": 0.06614400000000001
+        },
+        {
+          "num": 2,
+          "team1": "Argentina",
+          "p1": 0.20800000000000002,
+          "team2": "England",
+          "p2": 0.26,
+          "combined": 0.05408000000000001
+        },
+        {
+          "num": 3,
+          "team1": "Spain",
+          "p1": 0.318,
+          "team2": "England",
+          "p2": 0.26,
+          "combined": 0.08268
+        }
+      ]
+    }
+  },
+  "schedule": [
+    {
+      "match_id": "M1",
+      "stage": "Group A",
+      "date": "Jun 11",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "venue": "Estadio Azteca, Mexico City",
+      "winner": ""
+    },
+    {
+      "match_id": "M2",
+      "stage": "Group A",
+      "date": "Jun 11",
+      "team1": "South Korea",
+      "team2": "UEFA D",
+      "venue": "Estadio Akron, Zap",
+      "winner": ""
+    },
+    {
+      "match_id": "M3",
+      "stage": "Group B",
+      "date": "Jun 12",
+      "team1": "Canada",
+      "team2": "UEFA A",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M4",
+      "stage": "Group D",
+      "date": "Jun 12",
+      "team1": "United States",
+      "team2": "Paraguay",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M8",
+      "stage": "Group B",
+      "date": "Jun 13",
+      "team1": "Qatar",
+      "team2": "Switzerland",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M7",
+      "stage": "Group C",
+      "date": "Jun 13",
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M5",
+      "stage": "Group C",
+      "date": "Jun 13",
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "venue": "Gillette Stadium, Foxborough",
+      "winner": ""
+    },
+    {
+      "match_id": "M6",
+      "stage": "Group D",
+      "date": "Jun 13",
+      "team1": "Australia",
+      "team2": "UEFA C",
+      "venue": "BC Place, Vancouver",
+      "winner": ""
+    },
+    {
+      "match_id": "M10",
+      "stage": "Group E",
+      "date": "Jun 14",
+      "team1": "Germany",
+      "team2": "Curacao",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M11",
+      "stage": "Group F",
+      "date": "Jun 14",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M9",
+      "stage": "Group E",
+      "date": "Jun 14",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "winner": ""
+    },
+    {
+      "match_id": "M12",
+      "stage": "Group F",
+      "date": "Jun 14",
+      "team1": "UEFA B",
+      "team2": "Tunisia",
+      "venue": "Estadio BBVA, Guadalupe",
+      "winner": ""
+    },
+    {
+      "match_id": "M14",
+      "stage": "Group H",
+      "date": "Jun 15",
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "winner": ""
+    },
+    {
+      "match_id": "M16",
+      "stage": "Group G",
+      "date": "Jun 15",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M13",
+      "stage": "Group H",
+      "date": "Jun 15",
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "winner": ""
+    },
+    {
+      "match_id": "M15",
+      "stage": "Group G",
+      "date": "Jun 15",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M17",
+      "stage": "Group I",
+      "date": "Jun 16",
+      "team1": "France",
+      "team2": "Senegal",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M18",
+      "stage": "Group I",
+      "date": "Jun 16",
+      "team1": "FIFA 2",
+      "team2": "Norway",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M19",
+      "stage": "Group J",
+      "date": "Jun 16",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M20",
+      "stage": "Group J",
+      "date": "Jun 16",
+      "team1": "Austria",
+      "team2": "Jordan",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M23",
+      "stage": "Group K",
+      "date": "Jun 17",
+      "team1": "Portugal",
+      "team2": "FIFA 1",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M21",
+      "stage": "Group L",
+      "date": "Jun 17",
+      "team1": "England",
+      "team2": "Croatia",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M22",
+      "stage": "Group L",
+      "date": "Jun 17",
+      "team1": "Ghana",
+      "team2": "Panama",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M24",
+      "stage": "Group K",
+      "date": "Jun 17",
+      "team1": "Uzbekistan",
+      "team2": "Colombia",
+      "venue": "Estadio Azteca, Mexico City",
+      "winner": ""
+    },
+    {
+      "match_id": "M25",
+      "stage": "Group A",
+      "date": "Jun 18",
+      "team1": "UEFA D",
+      "team2": "South Africa",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M26",
+      "stage": "Group B",
+      "date": "Jun 18",
+      "team1": "Switzerland",
+      "team2": "UEFA A",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M27",
+      "stage": "Group B",
+      "date": "Jun 18",
+      "team1": "Canada",
+      "team2": "Qatar",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M28",
+      "stage": "Group A",
+      "date": "Jun 18",
+      "team1": "Mexico",
+      "team2": "South Korea",
+      "venue": "Estadio Akron, Zap",
+      "winner": ""
+    },
+    {
+      "match_id": "M32",
+      "stage": "Group D",
+      "date": "Jun 19",
+      "team1": "United States",
+      "team2": "Australia",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M30",
+      "stage": "Group C",
+      "date": "Jun 19",
+      "team1": "Scotland",
+      "team2": "Morocco",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M29",
+      "stage": "Group C",
+      "date": "Jun 19",
+      "team1": "Brazil",
+      "team2": "Haiti",
+      "venue": "Lincoln Financial ",
+      "winner": ""
+    },
+    {
+      "match_id": "M31",
+      "stage": "Group D",
+      "date": "Jun 19",
+      "team1": "UEFA C",
+      "team2": "Paraguay",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M35",
+      "stage": "Group F",
+      "date": "Jun 20",
+      "team1": "Netherlands",
+      "team2": "UEFA B",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M33",
+      "stage": "Group E",
+      "date": "Jun 20",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M34",
+      "stage": "Group E",
+      "date": "Jun 20",
+      "team1": "Ecuador",
+      "team2": "Curacao",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M36",
+      "stage": "Group F",
+      "date": "Jun 20",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "venue": "Estadio BBVA, Guad",
+      "winner": ""
+    },
+    {
+      "match_id": "M38",
+      "stage": "Group H",
+      "date": "Jun 21",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M39",
+      "stage": "Group G",
+      "date": "Jun 21",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M37",
+      "stage": "Group H",
+      "date": "Jun 21",
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M40",
+      "stage": "Group G",
+      "date": "Jun 21",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M43",
+      "stage": "Group J",
+      "date": "Jun 22",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M42",
+      "stage": "Group I",
+      "date": "Jun 22",
+      "team1": "France",
+      "team2": "FIFA 2",
+      "venue": "Lincoln Financial ",
+      "winner": ""
+    },
+    {
+      "match_id": "M41",
+      "stage": "Group I",
+      "date": "Jun 22",
+      "team1": "Norway",
+      "team2": "Senegal",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M44",
+      "stage": "Group J",
+      "date": "Jun 22",
+      "team1": "Jordan",
+      "team2": "Algeria",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M47",
+      "stage": "Group K",
+      "date": "Jun 23",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M45",
+      "stage": "Group L",
+      "date": "Jun 23",
+      "team1": "England",
+      "team2": "Ghana",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M46",
+      "stage": "Group L",
+      "date": "Jun 23",
+      "team1": "Panama",
+      "team2": "Croatia",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M48",
+      "stage": "Group K",
+      "date": "Jun 23",
+      "team1": "Colombia",
+      "team2": "FIFA 1",
+      "venue": "Estadio Akron, Zap",
+      "winner": ""
+    },
+    {
+      "match_id": "M51",
+      "stage": "Group B",
+      "date": "Jun 24",
+      "team1": "Switzerland",
+      "team2": "Canada",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M52",
+      "stage": "Group B",
+      "date": "Jun 24",
+      "team1": "UEFA A",
+      "team2": "Qatar",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M49",
+      "stage": "Group C",
+      "date": "Jun 24",
+      "team1": "Scotland",
+      "team2": "Brazil",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M50",
+      "stage": "Group C",
+      "date": "Jun 24",
+      "team1": "Morocco",
+      "team2": "Haiti",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M53",
+      "stage": "Group A",
+      "date": "Jun 24",
+      "team1": "UEFA D",
+      "team2": "Mexico",
+      "venue": "Estadio Azteca, Mexico City",
+      "winner": ""
+    },
+    {
+      "match_id": "M54",
+      "stage": "Group A",
+      "date": "Jun 24",
+      "team1": "South Africa",
+      "team2": "South Korea",
+      "venue": "Estadio BBVA, Guad",
+      "winner": ""
+    },
+    {
+      "match_id": "M55",
+      "stage": "Group E",
+      "date": "Jun 25",
+      "team1": "Curacao",
+      "team2": "Ivory Coast",
+      "venue": "Lincoln Financial ",
+      "winner": ""
+    },
+    {
+      "match_id": "M56",
+      "stage": "Group E",
+      "date": "Jun 25",
+      "team1": "Ecuador",
+      "team2": "Germany",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M57",
+      "stage": "Group F",
+      "date": "Jun 25",
+      "team1": "Japan",
+      "team2": "UEFA B",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M58",
+      "stage": "Group F",
+      "date": "Jun 25",
+      "team1": "Tunisia",
+      "team2": "Netherlands",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M59",
+      "stage": "Group D",
+      "date": "Jun 25",
+      "team1": "UEFA C",
+      "team2": "United States",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M60",
+      "stage": "Group D",
+      "date": "Jun 25",
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M61",
+      "stage": "Group I",
+      "date": "Jun 26",
+      "team1": "Norway",
+      "team2": "France",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M62",
+      "stage": "Group I",
+      "date": "Jun 26",
+      "team1": "Senegal",
+      "team2": "FIFA 2",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M65",
+      "stage": "Group H",
+      "date": "Jun 26",
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M66",
+      "stage": "Group H",
+      "date": "Jun 26",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "venue": "Estadio Akron, Zap",
+      "winner": ""
+    },
+    {
+      "match_id": "M63",
+      "stage": "Group G",
+      "date": "Jun 26",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M64",
+      "stage": "Group G",
+      "date": "Jun 26",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M67",
+      "stage": "Group L",
+      "date": "Jun 27",
+      "team1": "Panama",
+      "team2": "England",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M68",
+      "stage": "Group L",
+      "date": "Jun 27",
+      "team1": "Croatia",
+      "team2": "Ghana",
+      "venue": "Lincoln Financial ",
+      "winner": ""
+    },
+    {
+      "match_id": "M71",
+      "stage": "Group K",
+      "date": "Jun 27",
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M72",
+      "stage": "Group K",
+      "date": "Jun 27",
+      "team1": "FIFA 1",
+      "team2": "Uzbekistan",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M69",
+      "stage": "Group J",
+      "date": "Jun 27",
+      "team1": "Algeria",
+      "team2": "Austria",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M70",
+      "stage": "Group J",
+      "date": "Jun 27",
+      "team1": "Jordan",
+      "team2": "Argentina",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M73",
+      "stage": "Round of 32",
+      "date": "Jun 28",
+      "team1": "2A",
+      "team2": "2B",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M76",
+      "stage": "Round of 32",
+      "date": "Jun 29",
+      "team1": "1C",
+      "team2": "2F",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M74",
+      "stage": "Round of 32",
+      "date": "Jun 29",
+      "team1": "1E",
+      "team2": "3ABCDF",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M75",
+      "stage": "Round of 32",
+      "date": "Jun 29",
+      "team1": "1F",
+      "team2": "2C",
+      "venue": "Estadio BBVA, Guad",
+      "winner": ""
+    },
+    {
+      "match_id": "M78",
+      "stage": "Round of 32",
+      "date": "Jun 30",
+      "team1": "2E",
+      "team2": "2I",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M77",
+      "stage": "Round of 32",
+      "date": "Jun 30",
+      "team1": "1I",
+      "team2": "3CDFGH",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M79",
+      "stage": "Round of 32",
+      "date": "Jun 30",
+      "team1": "1A",
+      "team2": "3CEFHI",
+      "venue": "Estadio Azteca, Mexico City",
+      "winner": ""
+    },
+    {
+      "match_id": "M80",
+      "stage": "Round of 32",
+      "date": "Jul 01",
+      "team1": "1L",
+      "team2": "3EHIJK",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M82",
+      "stage": "Round of 32",
+      "date": "Jul 01",
+      "team1": "1G",
+      "team2": "3AEHIJ",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M81",
+      "stage": "Round of 32",
+      "date": "Jul 01",
+      "team1": "1D",
+      "team2": "3BEFIJ",
+      "venue": "Levi's Stadium, Santa Clara",
+      "winner": ""
+    },
+    {
+      "match_id": "M84",
+      "stage": "Round of 32",
+      "date": "Jul 02",
+      "team1": "1H",
+      "team2": "2J",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M83",
+      "stage": "Round of 32",
+      "date": "Jul 02",
+      "team1": "2K",
+      "team2": "2L",
+      "venue": "BMO Field, Toronto",
+      "winner": ""
+    },
+    {
+      "match_id": "M85",
+      "stage": "Round of 32",
+      "date": "Jul 02",
+      "team1": "2B",
+      "team2": "3EFGIJ",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M88",
+      "stage": "Round of 32",
+      "date": "Jul 03",
+      "team1": "2D",
+      "team2": "2G",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M86",
+      "stage": "Round of 32",
+      "date": "Jul 03",
+      "team1": "1J",
+      "team2": "2H",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M87",
+      "stage": "Round of 32",
+      "date": "Jul 03",
+      "team1": "1K",
+      "team2": "3DEIJL",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M90",
+      "stage": "Round of 16",
+      "date": "Jul 04",
+      "team1": "W73",
+      "team2": "W75",
+      "venue": "NRG Stadium, Houston",
+      "winner": ""
+    },
+    {
+      "match_id": "M89",
+      "stage": "Round of 16",
+      "date": "Jul 04",
+      "team1": "W74",
+      "team2": "W77",
+      "venue": "Lincoln Financial ",
+      "winner": ""
+    },
+    {
+      "match_id": "M91",
+      "stage": "Round of 16",
+      "date": "Jul 05",
+      "team1": "W76",
+      "team2": "W78",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    },
+    {
+      "match_id": "M92",
+      "stage": "Round of 16",
+      "date": "Jul 05",
+      "team1": "W79",
+      "team2": "W80",
+      "venue": "Estadio Azteca, Mexico City",
+      "winner": ""
+    },
+    {
+      "match_id": "M93",
+      "stage": "Round of 16",
+      "date": "Jul 06",
+      "team1": "W83",
+      "team2": "W84",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M94",
+      "stage": "Round of 16",
+      "date": "Jul 06",
+      "team1": "W81",
+      "team2": "W82",
+      "venue": "Lumen Field, Seattle",
+      "winner": ""
+    },
+    {
+      "match_id": "M95",
+      "stage": "Round of 16",
+      "date": "Jul 07",
+      "team1": "W86",
+      "team2": "W88",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M96",
+      "stage": "Round of 16",
+      "date": "Jul 07",
+      "team1": "W85",
+      "team2": "W87",
+      "venue": "BC Place, Vancouve",
+      "winner": ""
+    },
+    {
+      "match_id": "M97",
+      "stage": "Quarterfinals",
+      "date": "Jul 09",
+      "team1": "W89",
+      "team2": "W90",
+      "venue": "Gillette Stadium, ",
+      "winner": ""
+    },
+    {
+      "match_id": "M98",
+      "stage": "Quarterfinals",
+      "date": "Jul 10",
+      "team1": "W93",
+      "team2": "W94",
+      "venue": "SoFi Stadium, Inglewood",
+      "winner": ""
+    },
+    {
+      "match_id": "M99",
+      "stage": "Quarterfinals",
+      "date": "Jul 11",
+      "team1": "W91",
+      "team2": "W92",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M100",
+      "stage": "Quarterfinals",
+      "date": "Jul 11",
+      "team1": "W95",
+      "team2": "W96",
+      "venue": "Arrowhead Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M101",
+      "stage": "Semifinals",
+      "date": "Jul 14",
+      "team1": "W97",
+      "team2": "W98",
+      "venue": "AT&T Stadium, Arlington",
+      "winner": ""
+    },
+    {
+      "match_id": "M102",
+      "stage": "Semifinals",
+      "date": "Jul 15",
+      "team1": "W99",
+      "team2": "W100",
+      "venue": "Mercedes-Benz Stad",
+      "winner": ""
+    },
+    {
+      "match_id": "M103",
+      "stage": "Third Place",
+      "date": "Jul 18",
+      "team1": "L101",
+      "team2": "L102",
+      "venue": "Hard Rock Stadium,",
+      "winner": ""
+    },
+    {
+      "match_id": "M104",
+      "stage": "Final",
+      "date": "Jul 19",
+      "team1": "W191",
+      "team2": "W102",
+      "venue": "MetLife Stadium, East Rutherford",
+      "winner": ""
+    }
+  ]
+}

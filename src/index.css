@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* ============================================
+   DARK MODE WAR ROOM — Bloomberg meets ESPN
+   Copart FIFA 26 Dallas Predictor
+   ============================================ */
+
+@theme {
+  /* ---- Surfaces ---- */
+  --color-s0: #060A12;
+  --color-s1: #0C1220;
+  --color-s2: #111929;
+  --color-s3: #182038;
+  --color-s4: #1F2A4A;
+  --color-s-glow: #263560;
+
+  /* ---- Accent / Copart Blue ---- */
+  --color-accent: #3B7BF6;
+  --color-accent-bright: #5E9AFF;
+  --color-accent-dim: #1D3E7A;
+  --color-accent-muted: #14264A;
+  --color-accent-glow: rgba(59, 123, 246, 0.15);
+
+  /* ---- Text ---- */
+  --color-t1: #EFF2F7;
+  --color-t2: #9AA3B8;
+  --color-t3: #5C6680;
+
+  /* ---- Status ---- */
+  --color-green: #34D399;
+  --color-green-dim: rgba(52, 211, 153, 0.12);
+  --color-amber: #FBBF24;
+  --color-amber-dim: rgba(251, 191, 36, 0.12);
+  --color-red: #F87171;
+  --color-red-dim: rgba(248, 113, 113, 0.12);
+
+  /* ---- Borders ---- */
+  --color-b1: rgba(255, 255, 255, 0.05);
+  --color-b2: rgba(255, 255, 255, 0.08);
+  --color-b3: rgba(255, 255, 255, 0.14);
+
+  /* ---- Fonts ---- */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ---- Radius ---- */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color-s0);
+  color: var(--color-t1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ---- Tabular nums for data ---- */
+.tabular-nums { font-variant-numeric: tabular-nums; }
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-b3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-t3); }
+
+/* ---- Prob-bar fill animation ---- */
+@keyframes bar-fill {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+.animate-bar-fill {
+  animation: bar-fill 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  transform-origin: left;
+}
+
+/* ---- Glow pulse for hero numbers ---- */
+@keyframes glow-pulse {
+  0%, 100% { text-shadow: 0 0 20px rgba(59, 123, 246, 0.3); }
+  50%      { text-shadow: 0 0 40px rgba(59, 123, 246, 0.6); }
+}
+.glow { animation: glow-pulse 3s ease-in-out infinite; }
+
+/* ---- Light mode (Copart brand) ---- */
+[data-theme="light"] {
+  --color-s0: #F6F9FD;
+  --color-s1: #FFFFFF;
+  --color-s2: #FFFFFF;
+  --color-s3: #EEF2FC;
+  --color-s4: #E1E9FA;
+  --color-s-glow: #E1E9FA;
+
+  --color-accent: #2662D9;
+  --color-accent-bright: #063598;
+  --color-accent-dim: #E1E9FA;
+  --color-accent-muted: #EEF2FC;
+  --color-accent-glow: rgba(38, 98, 217, 0.08);
+
+  --color-t1: #2F333C;
+  --color-t2: #46525D;
+  --color-t3: #8A94A0;
+
+  --color-green: #1B6600;
+  --color-green-dim: #D7E8D1;
+  --color-amber: #705700;
+  --color-amber-dim: #FFF7D1;
+  --color-red: #C00022;
+  --color-red-dim: #FCE5E9;
+
+  --color-b1: #E2E5E9;
+  --color-b2: #E2E5E9;
+  --color-b3: #C5CCD3;
+}
+
+[data-theme="light"] body {
+  background: #F6F9FD;
+  color: #2F333C;
+}
+
+/* ---- Card hover ---- */
+.card-hover {
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+.card-hover:hover {
+  border-color: rgba(59, 123, 246, 0.25);
+  box-shadow: 0 0 20px rgba(59, 123, 246, 0.08);
+}
+
+/* ---- Print / Screenshot mode ---- */
+@media print {
+  body {
+    background: white !important;
+    color: #1a1a1a !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .no-print,
+  header, nav { display: none !important; }
+
+  main { padding: 0 !important; max-width: 100% !important; }
+
+  .exec-page {
+    max-width: 100% !important;
+  }
+
+  /* Force white backgrounds on cards */
+  .exec-page > div {
+    break-inside: avoid;
+  }
+
+  /* Ensure flag images print */
+  img { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
