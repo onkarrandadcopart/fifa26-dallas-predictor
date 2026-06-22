@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppShell } from '@/components/layout/AppShell';
 import { DashboardView } from '@/components/dashboard/DashboardView';
+import { StandingsView } from '@/components/standings/StandingsView';
 import { MarketOddsView } from '@/components/odds/MarketOddsView';
 import { ScenarioView } from '@/components/scenarios/ScenarioView';
 import { ExecutiveView } from '@/components/executive/ExecutiveView';
@@ -24,6 +25,7 @@ export default function App() {
         <Routes>
           <Route element={<AppShell />}>
             <Route index element={<DashboardView />} />
+            <Route path="standings" element={<StandingsView />} />
             <Route path="scenarios" element={<ScenarioView />} />
             <Route path="odds" element={<MarketOddsView />} />
             <Route path="movement" element={<MovementLogView />} />

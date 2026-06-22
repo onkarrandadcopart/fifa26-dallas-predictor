@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils';
 
 const tabs = [
   { to: '/', label: 'Dashboard' },
+  { to: '/standings', label: 'Points Table' },
   { to: '/scenarios', label: 'Scenarios' },
   { to: '/odds', label: 'Odds' },
   { to: '/movement', label: 'Movement' },
