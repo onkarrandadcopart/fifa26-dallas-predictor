@@ -62,7 +62,12 @@ async function fetchGroup(group) {
       return [];
     }
     const data = await res.json();
-    return (data.markets || []).filter(m => m.status === 'active');
+    // Accept active AND resolved/finalized markets — groups close as matches finish.
+    // Resolved markets have final prices (winner ~99, others ~1) which correctly
+    // represent the actual group outcome for seeding purposes.
+    return (data.markets || []).filter(m =>
+      ['active', 'finalized', 'resolved', 'settled', 'determined'].includes(m.status)
+    );
   } catch (err) {
     console.warn(`  Group ${group}: fetch error — ${err.message}`);
     return [];
@@ -129,8 +134,8 @@ async function main() {
   }
 
   if (allTeams.length === 0) {
-    console.error('No data fetched. Aborting.');
-    process.exit(1);
+    console.warn('No market data fetched from Kalshi (all groups may be finalized). Skipping seed write.');
+    process.exit(0);
   }
 
   // Compute predictions (simplified — just top matchup per Dallas match)

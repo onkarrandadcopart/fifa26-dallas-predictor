@@ -4,11 +4,16 @@ on:
     - cron: '0 10 * * *'  # 10am UTC daily
   workflow_dispatch:        # Manual trigger
 
+permissions:
+  contents: write           # Required to push seed file updates
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -16,10 +21,14 @@ jobs:
       - run: node scripts/fetch-kalshi-seed.cjs
         env:
           KALSHI_API_KEY: ${{ secrets.KALSHI_API_KEY }}
-      - name: Commit and push
+      - name: Commit and push if changed
         run: |
           git config user.name "odds-bot"
           git config user.email "bot@copart.com"
           git add src/data/seed/
-          git diff --cached --quiet || git commit -m "odds: daily seed update $(date +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to seed data — skipping commit."
+          else
+            git commit -m "odds: daily seed update $(date +%Y-%m-%d)"
+            git push
+          fi
