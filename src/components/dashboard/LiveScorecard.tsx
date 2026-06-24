@@ -21,15 +21,18 @@ interface LiveScoresResponse {
   timestamp: string;
 }
 
-/** Map display names to our teamIds for flags */
+/** Map ESPN display names → internal teamIds (used for flag lookup) */
 const TEAM_NAME_TO_ID: Record<string, string> = {
+  // Dallas groups
   'Netherlands': 'netherlands', 'Japan': 'japan', 'England': 'england',
   'Croatia': 'croatia', 'Argentina': 'argentina', 'Austria': 'austria',
   'Jordan': 'jordan', 'Germany': 'germany', 'Ecuador': 'ecuador',
-  'Ivory Coast': 'ivory_coast', 'Curaçao': 'curacao', 'Curacao': 'curacao',
-  'Belgium': 'belgium', 'Egypt': 'egypt', 'Iran': 'iran',
+  'Ivory Coast': 'ivory_coast', "Côte d'Ivoire": 'ivory_coast',
+  'Curaçao': 'curacao', 'Curacao': 'curacao',
+  'Belgium': 'belgium', 'Egypt': 'egypt', 'Iran': 'iran', 'IR Iran': 'iran',
   'New Zealand': 'new_zealand', 'Spain': 'spain', 'Uruguay': 'uruguay',
-  'Saudi Arabia': 'saudi_arabia', 'Cape Verde': 'cape_verde',
+  'Saudi Arabia': 'saudi_arabia', 'KSA': 'saudi_arabia',
+  'Cape Verde': 'cape_verde', 'Cabo Verde': 'cape_verde',
   'France': 'france', 'Senegal': 'senegal', 'Norway': 'norway', 'Iraq': 'iraq_i',
   'Portugal': 'portugal', 'Colombia': 'colombia', 'Uzbekistan': 'uzbekistan',
   'Congo DR': 'congo_dr_k', 'DR Congo': 'congo_dr_k', 'DRC': 'congo_dr_k',
@@ -37,7 +40,26 @@ const TEAM_NAME_TO_ID: Record<string, string> = {
   'United States': 'united_states_d', 'USA': 'united_states_d',
   'Paraguay': 'paraguay', 'Australia': 'australia',
   'Türkiye': 'turkiye_d', 'Turkiye': 'turkiye_d', 'Turkey': 'turkiye_d',
+  // Other FIFA 2026 nations (shown in LiveScorecard from all groups)
   'Brazil': 'brazil', 'Mexico': 'mexico', 'Morocco': 'morocco',
+  'Peru': 'peru', 'Serbia': 'serbia', 'Costa Rica': 'costa_rica',
+  'Switzerland': 'switzerland', 'Canada': 'canada', 'Qatar': 'qatar',
+  'Scotland': 'scotland', 'Wales': 'wales', 'Haiti': 'haiti',
+  'Venezuela': 'venezuela', 'Jamaica': 'jamaica', 'Honduras': 'honduras',
+  'El Salvador': 'el_salvador', 'Cuba': 'cuba',
+  'Trinidad & Tobago': 'trinidad_tobago', 'Trinidad and Tobago': 'trinidad_tobago',
+  'Korea Republic': 'south_korea', 'South Korea': 'south_korea',
+  'Indonesia': 'indonesia', 'Thailand': 'thailand', 'Bahrain': 'bahrain',
+  'China PR': 'china', 'China': 'china', 'Philippines': 'philippines',
+  'Nigeria': 'nigeria', 'South Africa': 'south_africa',
+  'Cameroon': 'cameroon', 'Mali': 'mali', 'Tunisia': 'tunisia',
+  'Kenya': 'kenya', 'Zambia': 'zambia',
+  'Ukraine': 'ukraine', 'Romania': 'romania', 'Greece': 'greece',
+  'Bosnia & Herzegovina': 'bosnia-herzegovina',
+  'Bosnia-Herzegovina': 'bosnia-herzegovina',
+  'Bosnia and Herzegovina': 'bosnia-herzegovina',
+  'Slovakia': 'slovakia', 'Hungary': 'hungary', 'Denmark': 'denmark',
+  'Sweden': 'sweden', 'Poland': 'poland', 'Czechia': 'czechia',
 };
 
 function teamId(name: string): string {
