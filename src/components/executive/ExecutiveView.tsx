@@ -13,6 +13,9 @@ const CONFIRMED_IDS: Record<string, string[]> = {
   M21: ['england', 'croatia'],
   M43: ['argentina', 'austria'],
   M70: ['argentina', 'jordan'],
+  M78: ['ivory_coast', 'norway'],
+  M88: ['australia', 'egypt'],
+  M93: ['portugal', 'spain'],
 };
 
 function isStar(id: string): boolean {
@@ -113,9 +116,15 @@ export function ExecutiveView() {
                         </span>
                       </div>
                     </div>
-                    <span className="text-[10px] font-bold text-green bg-green-dim px-2 py-1 rounded-full print:bg-green-50 print:text-green-700">
-                      Confirmed
-                    </span>
+                    {match.result ? (
+                      <span className="text-sm font-extrabold text-t1 tabular-nums bg-s3 px-2 py-1 rounded print:text-black">
+                        {match.result} <span className="text-[10px] font-bold text-t3 ml-1">FT</span>
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-bold text-green bg-green-dim px-2 py-1 rounded-full print:bg-green-50 print:text-green-700">
+                        Confirmed
+                      </span>
+                    )}
                   </div>
                 ) : top ? (
                   <div>

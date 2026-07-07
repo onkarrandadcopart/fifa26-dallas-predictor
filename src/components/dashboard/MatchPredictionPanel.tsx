@@ -11,12 +11,15 @@ interface MatchPredictionPanelProps {
   matchups: MatchupPrediction[];
 }
 
-/** Hard-coded teamIds for confirmed group stage matches */
+/** Hard-coded teamIds for confirmed matches */
 const confirmedTeams: Record<string, [string, string]> = {
   M11: ['netherlands', 'japan'],
   M21: ['england', 'croatia'],
   M43: ['argentina', 'austria'],
   M70: ['argentina', 'jordan'],
+  M78: ['ivory_coast', 'norway'],
+  M88: ['australia', 'egypt'],
+  M93: ['portugal', 'spain'],
 };
 
 export function MatchPredictionPanel({ matchId, matchups }: MatchPredictionPanelProps) {
@@ -48,18 +51,32 @@ export function MatchPredictionPanel({ matchId, matchups }: MatchPredictionPanel
             <div className="flex items-center justify-center gap-16">
               <TeamCard teamId={teams[0]} name={t1Name!} />
               <div className="flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-s3 border border-b3 flex items-center justify-center">
-                  <span className="text-xs font-extrabold text-t3">VS</span>
-                </div>
+                {match.result ? (
+                  <div className="flex flex-col items-center gap-1">
+                    <span className="text-2xl font-extrabold text-t1 tabular-nums">{match.result}</span>
+                    <span className="text-[10px] font-bold text-t3 uppercase tracking-wider">Final</span>
+                  </div>
+                ) : (
+                  <div className="w-10 h-10 rounded-full bg-s3 border border-b3 flex items-center justify-center">
+                    <span className="text-xs font-extrabold text-t3">VS</span>
+                  </div>
+                )}
               </div>
               <TeamCard teamId={teams[1]} name={t2Name!} />
             </div>
 
             <div className="mt-8 text-center">
-              <span className="inline-flex items-center gap-1.5 text-xs font-bold text-green bg-green-dim px-4 py-2 rounded-full">
-                <span className="w-1.5 h-1.5 rounded-full bg-green" />
-                Teams Confirmed — Plan client invites
-              </span>
+              {match.result ? (
+                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-t3 bg-s3 px-4 py-2 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-t3" />
+                  Final Result
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-green bg-green-dim px-4 py-2 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-green" />
+                  Teams Confirmed — Plan client invites
+                </span>
+              )}
             </div>
           </div>
         </div>

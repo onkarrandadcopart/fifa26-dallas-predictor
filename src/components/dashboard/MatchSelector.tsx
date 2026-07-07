@@ -12,12 +12,15 @@ interface MatchSelectorProps {
   predictions: DallasPredictions;
 }
 
-/** Hard-coded teamIds for confirmed group stage matches */
+/** Hard-coded teamIds for confirmed matches */
 const confirmedTeams: Record<string, [string, string]> = {
   M11: ['netherlands', 'japan'],
   M21: ['england', 'croatia'],
   M43: ['argentina', 'austria'],
   M70: ['argentina', 'jordan'],
+  M78: ['ivory_coast', 'norway'],
+  M88: ['australia', 'egypt'],
+  M93: ['portugal', 'spain'],
 };
 
 /** Get top predicted teams for a knockout match */
@@ -87,7 +90,11 @@ export function MatchSelector({ selectedMatchId, onSelect, predictions }: MatchS
                   <span className={cn('text-xs font-semibold', isSelected ? 'text-t1' : 'text-t2')}>
                     {teamName(confirmed[0])}
                   </span>
-                  <span className="text-[10px] text-t3">vs</span>
+                  {match.result ? (
+                    <span className="text-[10px] font-bold text-t3 tabular-nums">{match.result}</span>
+                  ) : (
+                    <span className="text-[10px] text-t3">vs</span>
+                  )}
                   <FlagImg teamId={confirmed[1]} size="xs" />
                   <span className={cn('text-xs font-semibold', isSelected ? 'text-t1' : 'text-t2')}>
                     {teamName(confirmed[1])}

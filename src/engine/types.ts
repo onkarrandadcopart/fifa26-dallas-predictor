@@ -90,6 +90,7 @@ export interface DallasMatch {
   teams: string;                // "Netherlands vs Japan" or "2E vs 2I"
   teamsConfirmed: boolean;
   notes: string;
+  result?: string;              // Final score, e.g. "2–1" or "1–1 (4–2 pens)"
   feedsMatch?: string;          // e.g. M93 feeds from M83/M84
 }
 
