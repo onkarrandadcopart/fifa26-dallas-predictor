@@ -21,6 +21,7 @@ const confirmedTeams: Record<string, [string, string]> = {
   M78: ['ivory_coast', 'norway'],
   M88: ['australia', 'egypt'],
   M93: ['portugal', 'spain'],
+  M101: ['france', 'spain'],
 };
 
 /** Get top predicted teams for a knockout match */

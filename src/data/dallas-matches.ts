@@ -80,9 +80,9 @@ export const dallasMatches: DallasMatch[] = [
     date: '2026-07-14',
     displayDate: 'Jul 14',
     stage: 'SF',
-    teams: 'W97 vs W98',
-    teamsConfirmed: false,
-    notes: 'SEMIFINAL — Premium entertainment',
+    teams: 'France vs Spain',
+    teamsConfirmed: true,
+    notes: 'SEMIFINAL — France beat Morocco 2-0 in QF, Spain beat Belgium 2-1. Live in Dallas — Bastille Day.',
   },
 ];
 

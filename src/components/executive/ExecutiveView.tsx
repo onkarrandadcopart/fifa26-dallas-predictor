@@ -16,6 +16,7 @@ const CONFIRMED_IDS: Record<string, string[]> = {
   M78: ['ivory_coast', 'norway'],
   M88: ['australia', 'egypt'],
   M93: ['portugal', 'spain'],
+  M101: ['france', 'spain'],
 };
 
 function isStar(id: string): boolean {
