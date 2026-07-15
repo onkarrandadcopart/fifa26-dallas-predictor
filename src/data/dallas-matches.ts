@@ -82,7 +82,8 @@ export const dallasMatches: DallasMatch[] = [
     stage: 'SF',
     teams: 'France vs Spain',
     teamsConfirmed: true,
-    notes: 'SEMIFINAL — France beat Morocco 2-0 in QF, Spain beat Belgium 2-1. Live in Dallas — Bastille Day.',
+    result: '0–2',
+    notes: 'Spain won 2-0 (Oyarzabal pen, Porro). Spain advances to the Final.',
   },
 ];
 
